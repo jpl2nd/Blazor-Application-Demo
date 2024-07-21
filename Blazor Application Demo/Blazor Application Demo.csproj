@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Blazor_Application_Demo</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/415974cf-3d67-428e-b60c-11d8544efdde/resourceGroups/Default-ActivityLogAlerts/providers/microsoft.insights/components/BlazorApplicationDemoInsight</ApplicationInsightsResourceId>
+    <UserSecretsId>43d162ff-6df2-437e-8b1f-7c09ea985a61</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
+
+</Project>
